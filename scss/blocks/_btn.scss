@@ -1,0 +1,73 @@
+.btn {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 1.125em;
+	user-select: none;
+	background-color: var(--c-red);
+	font-family: var(--font-family-secondary);
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 140%;
+	text-decoration: none;
+	text-align: center;
+	color: var(--c-white);
+	border: 1px solid var(--c-red);
+	border-radius: 5px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+	transition-property: background, color, border-color;
+	will-change: background, color, border-color;
+	touch-action: none;
+
+	
+	&:hover,
+	&:focus-visible {
+		background: transparent;
+		color: var(--c-red);
+		border-color: var(--c-red);
+	}
+
+	&--sm {
+		padding: 0.5em 1.5em;
+		font-size: 14px;
+	}
+
+	&--outline--light {
+		background-color: transparent;
+		color: var(--c-white);
+		border-color: var(--c-border);
+
+		&:hover,
+		&:focus-visible {
+			background-color: var(--c-red);
+			color: var(--c-white);
+			border-color: var(--c-red);
+		}
+	}
+
+	&--blue-dark {
+		border-color: var(--c-blue-dark);
+		background-color: transparent;
+		color: var(--c-blue-dark);
+
+		&:hover,
+		&:focus-visible {
+			border-color: var(--c-blue-dark);
+			background-color: var(--c-blue-dark);
+			color: var(--c-white);
+		}
+	}
+
+	&--outline--blue-dark {
+		border-color: var(--c-blue-dark);
+		background-color: var(--c-blue-dark);
+		color: var(--c-white);
+		
+		&:hover,
+		&:focus-visible {
+			border-color: var(--c-blue-dark);
+			background-color: transparent;
+			color: var(--c-blue-dark);
+		}
+	}
+}

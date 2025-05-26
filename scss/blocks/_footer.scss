@@ -1,0 +1,173 @@
+.footer {
+	background-color: var(--c-black);
+	padding-bottom: 40px;
+	z-index: 1;
+
+	&__nav {
+		display: grid;
+		grid-template-rows: auto auto;
+		grid-template-columns: 2fr repeat(4, 3fr);
+		grid-template-areas: 
+			'logo g1 g2 g3 g4'
+			'socs socs socs socs socs'
+		;
+		grid-gap: 60px 20px;
+		margin-bottom: 60px;
+	}
+
+	&__logo {
+		font-size: 1rem;
+		grid-area: logo;
+
+		img {
+			width: 6.25em;
+		}
+	}
+
+	&__group {
+
+		&--1 {
+			grid-area: g1;
+		}
+
+		&--2 {
+			grid-area: g2;
+		}
+
+		&--3 {
+			grid-area: g3;
+		}
+
+		&--4 {
+			grid-area: g4;
+		}
+	}
+
+	&__group-title {
+		margin-bottom: 0.875em;
+		font-size: 12px;
+		font-family: var(--font-family-secondary);
+		font-weight: 600;
+		line-height: 120%;
+		color: var(--c-white);
+	}
+
+	&__group-list {
+		display: flex;
+		flex-direction: column;
+		list-style: none;   
+	}
+
+	&__group-item {
+		margin-bottom: 0.25em;
+		padding-left: 0;
+		margin-left: 0;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	&__group-link {
+		padding: 2px 0;
+		font-size: 12px;
+		opacity: 70%;
+	}
+
+	&__social-list {
+		grid-area: socs;
+		justify-self: center;
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	&__social-item {
+		margin-right: 12px;
+		margin-left: 0;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	&__copy {
+		border-top: 1px solid var(--c-dark);
+		padding-top: 20px;
+		text-align: center;
+		opacity: 0.7;
+	}
+
+	&__copy-link {
+		color: var(--c-white);
+	}
+
+	&__copy,
+	&__copy-link {
+		color: var(--c-white);
+		font-size: 12px;
+		font-family: var(--font-family-secondary);
+		font-weight: 600;
+	}
+
+	@include media-max(xxl) {
+		grid-gap: 60px;
+		&__nav {
+			grid-gap: 60px;
+		}
+	}
+
+	@include media-max(lg) {
+		&__nav {
+			grid-template-rows: repeat(3, auto);
+			grid-template-columns: 1.5fr repeat(2, 2fr);
+			grid-template-areas: 
+				'logo g1 g2'
+				'socs g1 g2'
+				'- g3 g4'
+			;
+			grid-gap: 30px;
+		}
+
+		&__social-list {
+			justify-self: start;
+		}
+	}
+
+	@include media-max(md) {
+		&__nav {
+			grid-template-rows: repeat(3, auto);
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-areas: 
+				'logo logo g1 '
+				'socs socs g1'
+				'g2 g3 g4'
+			;
+			grid-gap: 30px 20px;
+		}
+	}
+
+	@include media-min(min-2k) {
+
+		&__logo {
+			font-size: 1.15rem;
+		}
+	
+		&__text,
+		&__btn {
+			font-size: 20px;
+		}
+
+		&__copy {
+			font-size: 16px;
+		}
+
+		&__group-title,
+		&__group-link  {
+			font-size: 18px;
+		}
+
+		&__social-item a {
+			--_size: 30px;
+		}
+	}
+}
