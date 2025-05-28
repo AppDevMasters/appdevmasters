@@ -26,7 +26,7 @@ export default function Home() {
               <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black text-slate-900 mb-8 leading-tight tracking-tight">
                 Apps That{' '}
                 <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
-                  Transform
+                  Improve
                 </span>
                 <br />
                 <span className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl">Everyday Life</span>
@@ -163,7 +163,7 @@ export default function Home() {
             <div className="text-4xl font-black bg-gradient-to-r from-blue-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent mb-6">
               AppDevMasters
             </div>
-            <p className="text-slate-300 mb-10 text-xl font-medium">Building apps that transform everyday life</p>
+            <p className="text-slate-300 mb-10 text-xl font-medium">Building apps that improve everyday life</p>
             
             <div className="flex justify-center space-x-8 mb-10">
               <a href="#" className="text-slate-400 hover:text-white transition-all duration-300 text-lg font-semibold hover:scale-105">Privacy</a>
