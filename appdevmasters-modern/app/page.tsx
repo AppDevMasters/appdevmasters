@@ -26,7 +26,7 @@ export default function Home() {
               <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black text-slate-900 mb-8 leading-tight tracking-tight">
                 Apps That{' '}
                 <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
-                  Improve
+                  Transform
                 </span>
                 <br />
                 <span className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl">Everyday Life</span>
@@ -142,7 +142,7 @@ export default function Home() {
 
               <div className="group text-center p-8 bg-white/60 backdrop-blur-sm rounded-3xl shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105 border border-white/50">
                 <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full mx-auto mb-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-500 shadow-lg">
-                  <div className="text-3xl">🧠</div>
+                  <div className="text-3xl">👤</div>
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">User Focused</h3>
                 <p className="text-slate-600 text-lg leading-relaxed">Every decision we make is driven by what&apos;s best for the people using our apps.</p>
@@ -163,7 +163,7 @@ export default function Home() {
             <div className="text-4xl font-black bg-gradient-to-r from-blue-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent mb-6">
               AppDevMasters
             </div>
-            <p className="text-slate-300 mb-10 text-xl font-medium">Building apps that improve everyday life</p>
+            <p className="text-slate-300 mb-10 text-xl font-medium">Building apps that transform everyday life</p>
             
             <div className="flex justify-center space-x-8 mb-10">
               <a href="#" className="text-slate-400 hover:text-white transition-all duration-300 text-lg font-semibold hover:scale-105">Privacy</a>
