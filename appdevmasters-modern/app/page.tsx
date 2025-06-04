@@ -36,13 +36,19 @@ export default function Home() {
                 We craft, launch, and support our own products — no client work, just pure product passion.
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-                <button className="group bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold py-4 px-8 rounded-2xl hover:shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105 text-lg">
+                <a
+                  href="#apps"
+                  className="group bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold py-4 px-8 rounded-2xl hover:shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105 text-lg"
+                >
                   Explore Our Apps
                   <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
-                </button>
-                <button className="group bg-white/80 backdrop-blur-sm text-slate-700 font-bold py-4 px-8 rounded-2xl border-2 border-slate-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300 transform hover:scale-105 text-lg">
+                </a>
+                <a
+                  href="#about"
+                  className="group bg-white/80 backdrop-blur-sm text-slate-700 font-bold py-4 px-8 rounded-2xl border-2 border-slate-200 hover:border-blue-300 hover:shadow-xl transition-all duration-300 transform hover:scale-105 text-lg"
+                >
                   Learn More
-                </button>
+                </a>
               </div>
             </div>
           </div>
