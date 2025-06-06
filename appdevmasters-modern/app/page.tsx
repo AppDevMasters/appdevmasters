@@ -61,44 +61,59 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
               <div className="group relative bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-white/50 overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-orange-50 to-yellow-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-orange-50 to-yellow-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                 <div className="relative z-10">
                   <div className="w-20 h-20 rounded-3xl bg-gradient-to-r from-orange-400 to-yellow-400 p-5 mb-8 group-hover:scale-110 transition-transform duration-500 shadow-lg">
                     <div className="w-10 h-10 text-white text-2xl flex items-center justify-center">💡</div>
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-4">MaxFocus</h3>
                   <p className="text-slate-600 mb-8 leading-relaxed text-lg">Stay in flow and block distractions with our minimalist focus timer. Get more done, effortlessly.</p>
-                  <button className="w-full bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-bold py-4 px-6 rounded-2xl hover:shadow-xl hover:shadow-orange-500/25 transition-all duration-300 group-hover:scale-105 text-lg">
+                  <a
+                    href="https://apps.apple.com/app/6469026271"
+                    className="w-full bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-bold py-4 px-6 rounded-2xl hover:shadow-xl hover:shadow-orange-500/25 transition-all duration-300 group-hover:scale-105 text-lg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Download
-                  </button>
+                  </a>
                 </div>
               </div>
 
               <div className="group relative bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-white/50 overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-green-50 to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-green-50 to-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                 <div className="relative z-10">
                   <div className="w-20 h-20 rounded-3xl bg-gradient-to-r from-green-400 to-blue-400 p-5 mb-8 group-hover:scale-110 transition-transform duration-500 shadow-lg">
                     <div className="w-10 h-10 text-white text-2xl flex items-center justify-center">🛒</div>
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-4">PlanToShop</h3>
                   <p className="text-slate-600 mb-8 leading-relaxed text-lg">Simplify your daily planning, groceries, and life admin with our beautifully simple lists app.</p>
-                  <button className="w-full bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold py-4 px-6 rounded-2xl hover:shadow-xl hover:shadow-green-500/25 transition-all duration-300 group-hover:scale-105 text-lg">
+                  <a
+                    href="https://apps.apple.com/app/6739975303"
+                    className="w-full bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold py-4 px-6 rounded-2xl hover:shadow-xl hover:shadow-green-500/25 transition-all duration-300 group-hover:scale-105 text-lg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Download
-                  </button>
+                  </a>
                 </div>
               </div>
 
               <div className="group relative bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-105 border border-white/50 overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-50 to-pink-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-purple-50 to-pink-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                 <div className="relative z-10">
                   <div className="w-20 h-20 rounded-3xl bg-gradient-to-r from-purple-400 to-pink-400 p-5 mb-8 group-hover:scale-110 transition-transform duration-500 shadow-lg">
                     <div className="w-10 h-10 text-white text-2xl flex items-center justify-center">🧠</div>
                   </div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-4">Thinkers</h3>
                   <p className="text-slate-600 mb-8 leading-relaxed text-lg">Capture ideas, organize thoughts, and brainstorm brilliantly with our intuitive thinking companion.</p>
-                  <button className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold py-4 px-6 rounded-2xl hover:shadow-xl hover:shadow-purple-500/25 transition-all duration-300 group-hover:scale-105 text-lg">
+                  <a
+                    href="https://apps.apple.com/app/6743700517"
+                    className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold py-4 px-6 rounded-2xl hover:shadow-xl hover:shadow-purple-500/25 transition-all duration-300 group-hover:scale-105 text-lg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Download
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
