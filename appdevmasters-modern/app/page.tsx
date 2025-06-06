@@ -70,7 +70,7 @@ export default function Home() {
                   <p className="text-slate-600 mb-8 leading-relaxed text-lg">Stay in flow and block distractions with our minimalist focus timer. Get more done, effortlessly.</p>
                   <a
                     href="https://apps.apple.com/app/6469026271"
-                    className="w-full bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-bold py-4 px-6 rounded-2xl hover:shadow-xl hover:shadow-orange-500/25 transition-all duration-300 group-hover:scale-105 text-lg"
+                    className="block w-full bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-bold py-4 px-6 rounded-2xl hover:shadow-xl hover:shadow-orange-500/25 transition-all duration-300 group-hover:scale-105 text-lg"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -89,7 +89,7 @@ export default function Home() {
                   <p className="text-slate-600 mb-8 leading-relaxed text-lg">Simplify your daily planning, groceries, and life admin with our beautifully simple lists app.</p>
                   <a
                     href="https://apps.apple.com/app/6739975303"
-                    className="w-full bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold py-4 px-6 rounded-2xl hover:shadow-xl hover:shadow-green-500/25 transition-all duration-300 group-hover:scale-105 text-lg"
+                    className="block w-full bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold py-4 px-6 rounded-2xl hover:shadow-xl hover:shadow-green-500/25 transition-all duration-300 group-hover:scale-105 text-lg"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -108,7 +108,7 @@ export default function Home() {
                   <p className="text-slate-600 mb-8 leading-relaxed text-lg">Capture ideas, organize thoughts, and brainstorm brilliantly with our intuitive thinking companion.</p>
                   <a
                     href="https://apps.apple.com/app/6743700517"
-                    className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold py-4 px-6 rounded-2xl hover:shadow-xl hover:shadow-purple-500/25 transition-all duration-300 group-hover:scale-105 text-lg"
+                    className="block w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold py-4 px-6 rounded-2xl hover:shadow-xl hover:shadow-purple-500/25 transition-all duration-300 group-hover:scale-105 text-lg"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
